@@ -1,0 +1,123 @@
+body {
+    width: auto;
+}
+
+.circle {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 6px solid black;
+    border-radius: 50%;
+}
+
+.number {
+    font-size: 90px;
+    position: absolute;
+}
+.one {
+    top: 8%;
+    left: 66%;
+}
+
+.two {
+    top: 22%;
+    left: 79%;
+}
+
+.three {
+    top: 43%;
+    left: 84%;
+}
+
+.four {
+    top: 60%;
+    left: 76%;
+}
+
+.five {
+    top: 73%;
+    left: 65%;
+}
+
+.six {
+    top: 80%;
+    left: 47%;
+}
+
+.seven {
+    top: 73%;
+    left: 32%;
+}
+
+.eight {
+    top: 60%;
+    left: 16%;
+}
+
+.nine {
+    top: 43%;
+    left: 8%;
+}
+
+.ten {
+    top: 22%;
+    left: 8%;
+}
+
+.eleven {
+    top: 8%;
+    left: 21%;
+}
+
+.twelve {
+    top: 0px;
+    left: 41%;
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.hour {
+    position: absolute;
+    top: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    background-color: blueviolet;
+    height: 110px;
+    border-radius: 5px;
+}
+
+.minute {
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 140px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+.second {
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 160px;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+
+
+
