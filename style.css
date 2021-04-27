@@ -1,19 +1,16 @@
-body {
-    width: auto;
-}
-
-.circle {
-    position: relative;
+.clock {
     margin: 0 auto;
-    width: 500px;
-    height: 500px;
-    border: 6px solid black;
+    width: 600px;
+    height: 600px;
+    border: 5px solid #0d7d91;
     border-radius: 50%;
+    position: relative;
 }
 
 .number {
     font-size: 90px;
     position: absolute;
+    color: #0d7d91;
 }
 .one {
     top: 8%;
@@ -88,36 +85,56 @@ body {
 
 .hour {
     position: absolute;
-    top: 145px;
+    top: 190px;
     left: 50%;
     transform: translateX(-50%);
     width: 10px;
-    background-color: blueviolet;
+    background-color: rgb(33, 191, 219);
     height: 110px;
     border-radius: 5px;
+    z-index: 100;
+    transform-origin: 100% 100%;
+    transition-timing-function: ease;
+    transition-duration: 3s;
+}
+
+.hour:hover {
+    transform: rotate(60deg);
 }
 
 .minute {
     position: absolute;
-    top: 115px;
+    top: 160px;
     left: 50%;
     transform: translateX(-50%);
     width: 8px;
     height: 140px;
-    background-color: chocolate;
+    background-color: rgb(33, 112, 122);
     border-radius: 5px;
+    z-index: 50;
+    transform-origin: 100% 100%;
+    transition-timing-function: ease;
+    transition-duration: 3s;
+}
+
+.minute:hover {
+    transform: rotate(90deg);
 }
 
 .second {
     position: absolute;
-    top: 95px;
+    top: 140px;
     left: 50%;
     transform: translateX(-50%);
     width: 6px;
     height: 160px;
-    background-color: darkblue;
+    background-color: rgb(81, 196, 224);
     border-radius: 5px;
+    transform-origin: 100% 100%;
+    transition-timing-function: ease;
+    transition-duration: 3s;
 }
 
-
-
+.second:hover {
+    transform: rotate(120deg);
+}
